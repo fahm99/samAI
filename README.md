@@ -24,7 +24,7 @@ SAM is a comprehensive mobile application designed to support farmers and agricu
 
 ### Built With
 - Flutter for cross-platform mobile development
-- Firebase for backend services:
+- Supabase for backend services:
   - Authentication
   - Cloud Firestore for database
   - Storage for images
@@ -44,30 +44,21 @@ SAM is a comprehensive mobile application designed to support farmers and agricu
 ### Prerequisites
 - Flutter SDK (latest stable version)
 - Dart SDK
-- Firebase account
+- Supabase account
 - Android Studio or VS Code with Flutter extensions
 
 ### Installation
 
-1. Clone the repository
-```bash
-https://github.com/fahm99/SAM-V-03.git
-```
+1. Clone the repository 
 
 2. Install dependencies
 ```bash
 flutter pub get
 ```
 
-3. Configure Firebase
-   - Create a new Firebase project
-   - Add Android and iOS apps to your Firebase project
-   - Download and add the configuration files:
-     - `google-services.json` for Android
-     - `GoogleService-Info.plist` for iOS
-   - Enable Authentication, Firestore, and Storage in Firebase console
 
-4. Run the app
+
+3. Run the app
 ```bash
 flutter run
 ```
@@ -113,11 +104,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Project Link: (https://github.com/fahm99/SAM-V-03.git)](https://github.com/fahm99/SAM-V-03.git))
 
 ## Acknowledgements
 
 - [Flutter](https://flutter.dev/)
-- [Firebase](https://firebase.google.com/)
+- [Supabase](https://Supabase.google.com/)
 - [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
 - [Flutter BLoC](https://pub.dev/packages/flutter_bloc)
